@@ -80,7 +80,7 @@ class ElectrumGui:
         m.addAction(_("Show/Hide"), self.show_or_hide)
         m.addAction(_("Dark/Light"), self.toggle_tray_icon)
         m.addSeparator()
-        m.addAction(_("Exit Electrum"), self.close)
+        m.addAction(_("Exit Electrum-drk"), self.close)
         self.tray.setContextMenu(m)
 
     def toggle_tray_icon(self):

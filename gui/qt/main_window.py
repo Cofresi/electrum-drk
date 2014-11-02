@@ -2378,7 +2378,7 @@ class ElectrumWindow(QMainWindow):
         d.setMinimumSize(400, 200)
         vbox = QVBoxLayout(d)
 
-        defaultname = os.path.expanduser('~/electrum-history.csv')
+        defaultname = os.path.expanduser('~/electrum-drk-history.csv')
         select_msg = _('Select file to export your wallet transactions to')
 
         hbox, filename_e, csv_button = filename_field(self, self.config, defaultname, select_msg)
